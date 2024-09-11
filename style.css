@@ -1,0 +1,70 @@
+body {
+
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(236, 240, 248);
+}
+
+h1  {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+form {
+    max-width: 600px;
+    margin :auto;
+    background-color: rgb(238, 238, 252);
+    border-radius: 8px;
+    box-shadow: 0 4px 10px ;
+    padding: 35px;
+}
+
+fieldset {
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin: auto;
+    background-color: #e5dff1;
+    
+}
+
+legend {
+    font-weight: bold;
+    color: black;
+    text-align: left;
+    
+}
+
+label {
+    display: block;
+    margin: auto;
+
+}
+
+input,textarea {
+    width: 500px;
+    padding: 3px;
+    margin-top: 4px;
+    border: 1px;
+    border-color: #000000;
+    box-sizing: border-box;
+        
+}
+
+button {
+    display: block;
+    width: 100px;
+    padding: 12px;
+    background-color: rgb(143, 143, 241);
+    border: none;
+    margin: 10px;
+    color: #000000; 
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #6253eb;
+}
+
+
